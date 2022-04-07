@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase5</title>
+</head>
+<body>
+    <h1>CREAR CUENTA</h1>
+    <fieldset>
+        <legend>Informaci&oacute;n Personal</legend>
+        <form action="../Clase 4/index.html" method="POST">
+       
+             <br>
+             <label>Nombre *</label>
+             <input type="text" name="nombre" placeholder="Alejandro">
+             <label>Apellido *</label>
+             <input type="text" name="apellido" placeholder="Ferreria">
+
+             <br>
+             <br>
+             <label>Direcci&oacute;n de email *</label>
+             <input type="email" name0="nombre"  placeholder="xxxxx@xxxx">
+             <br>
+             <label>Nro de documento *</label >
+             <input type="text" name="numDoc" placeholder="xxxxxxxx">
+             <br>
+             <label>Adherirse al botón de novedades</label>
+             <input type="checkbox" name="adn" value="SI" checked>
+             <br> <br>
+             <label>Casado</label>
+             <span>SI</span>
+             <input type="radio" name="casado" value="SI">
+             <span>NO</span>
+             <input type="radio" name="casado" value="NO" checked>
+             <br>
+             <label>Cantidad</label>
+             <select>
+                 <option Value="1">1</option>  
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+             </select>
+             <br>
+            
+            
+             <input type="submit" name="apellido" value="ENVIAR">
+
+
+
+        </form>
+    </fieldset>
+
+    <br>
+    <fieldset>
+        <legend>
+            Formulario con tabla
+        </legend>
+        <form></form>
+            <table>
+                <tr>
+                    <td>
+                        <label>Nombre *</label>
+                        <input type="text" name="nombre" placeholder="Alejandro" maxlength="10">
+                    </td>
+                    <td>
+                        <label>Apellido *</label>
+                        <input type="text" name="apellido" placeholder="Ferreria">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <label>Direcci&oacute;n de email *</label><br>
+                        <input type="email" name0="nombre"  placeholder="xxxxx@xxxx">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label>N&uacute;mero de Documento</label>
+                        <input type="number" name="DNI" min="1" max="99999999">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit"  value="GUARDAR">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+</body>
+</html>
